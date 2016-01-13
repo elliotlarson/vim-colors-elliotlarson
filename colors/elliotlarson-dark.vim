@@ -4,8 +4,8 @@ hi Cursor ctermfg=233 ctermbg=244
 hi CursorLine cterm=none ctermbg=233
 hi CursorLineNr ctermfg=198
 hi LineNr ctermfg=236 ctermbg=233
-hi StatusLine cterm=reverse ctermfg=236 ctermbg=233
-hi StatusLineNC cterm=reverse ctermfg=234 ctermbg=233
+hi StatusLine cterm=none ctermfg=244 ctermbg=234
+hi StatusLineNC cterm=none ctermfg=238 ctermbg=234
 hi VertSplit ctermfg=234 ctermbg=234
 hi TabLine cterm=none ctermfg=242 ctermbg=234
 hi TabLineFill cterm=none ctermfg=244 ctermbg=234
