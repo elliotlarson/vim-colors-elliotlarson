@@ -69,10 +69,11 @@ hi! helpNote ctermfg=125
 hi! helpVim ctermfg=125
 hi! helpHyperTextJump cterm=underline ctermfg=33
 hi! helpHyperTextEntry ctermfg=64
-hi! vimIsCommand ctermfg=234
+hi! vimIsCommand ctermfg=202
 hi! vimSynMtchOpt ctermfg=136
 hi! vimSynType ctermfg=37
 hi! vimHiLink ctermfg=33
 hi! vimHiGroup ctermfg=33
 hi! vimGroup cterm=bold ctermfg=33
+hi! vimEnvvar ctermfg=089
 
