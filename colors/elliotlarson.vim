@@ -5,8 +5,8 @@ endif
 let g:colors_name="elliotlarson"
 
 if &background == "light"
-  source elliotlarson-light.vim
+  runtime colors/elliotlarson-light.vim
 else
-  source elliotlarson-dark.vim
+  runtime colors/elliotlarson-dark.vim
 endif
 
