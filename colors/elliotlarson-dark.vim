@@ -16,7 +16,7 @@ hi DiffAdd ctermfg=64 ctermbg=233
 hi DiffChange ctermfg=136 ctermbg=233
 hi DiffDelete ctermfg=124 ctermbg=233
 hi DiffText ctermfg=33 ctermbg=233
-hi ErrorMsg cterm=reverse ctermfg=124
+hi ErrorMsg ctermbg=124 ctermfg=208
 hi Folded cterm=bold,underline ctermfg=244 ctermbg=233
 hi FoldColumn ctermfg=244 ctermbg=233
 hi IncSearch cterm=standout ctermfg=166
