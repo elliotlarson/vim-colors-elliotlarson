@@ -83,6 +83,7 @@ hi! goDeclaration ctermfg=165
 hi! goDeclType ctermfg=197
 hi! goReceiverType ctermfg=197
 hi! goExtraType ctermfg=197
+hi! goUnsignedInts ctermfg=197
 hi! goSignedInts ctermfg=197
 hi! goType ctermfg=197 cterm=bold
 hi! goMethod ctermfg=33 cterm=bold
@@ -95,6 +96,7 @@ hi! goStatement ctermfg=202
 hi! goRawString ctermfg=34
 hi! goString ctermfg=34
 hi! goEscapeC ctermfg=196
+hi! goFormatSpecifier ctermfg=196
 hi! goBoolean ctermfg=202
 hi! goDecimalInt ctermfg=202
 hi! goOperator ctermfg=220 cterm=bold
