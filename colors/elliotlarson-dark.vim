@@ -1,7 +1,7 @@
 hi Normal ctermfg=244 ctermbg=233
 hi CursorColumn ctermbg=233 ctermfg=207
 hi Cursor ctermfg=233 ctermbg=244
-hi CursorLine cterm=none ctermbg=233
+hi CursorLine cterm=none ctermbg=233 
 hi CursorLineNr ctermfg=198
 hi LineNr ctermfg=236 ctermbg=233
 hi StatusLine cterm=none ctermfg=244 ctermbg=234
@@ -22,10 +22,10 @@ hi FoldColumn ctermfg=244 ctermbg=233
 hi IncSearch cterm=standout ctermfg=166
 hi ModeMsg ctermfg=33
 hi MoreMsg ctermfg=33
-hi NonText cterm=bold ctermfg=234
+hi NonText cterm=bold ctermfg=235
 hi Question cterm=bold ctermfg=37
 hi Search cterm=reverse ctermfg=136
-hi SpecialKey cterm=bold ctermfg=234 ctermbg=233
+hi SpecialKey cterm=bold ctermfg=235 ctermbg=233
 hi Title cterm=bold ctermfg=166
 hi Visual cterm=reverse ctermfg=236 ctermbg=233
 hi VisualNOS cterm=reverse ctermbg=233
