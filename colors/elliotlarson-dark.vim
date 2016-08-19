@@ -1,4 +1,4 @@
-hi Normal ctermfg=250 ctermbg=233
+hi Normal ctermfg=252 ctermbg=233
 hi CursorColumn ctermbg=233 ctermfg=207
 hi Cursor ctermfg=233 ctermbg=244
 hi CursorLine cterm=none ctermbg=233 
@@ -10,7 +10,7 @@ hi VertSplit ctermfg=234 ctermbg=234
 hi TabLine cterm=none ctermfg=242 ctermbg=234
 hi TabLineFill cterm=none ctermfg=244 ctermbg=234
 hi TabLineSel cterm=none ctermfg=245 ctermbg=235
-hi MatchParen cterm=bold ctermfg=124 ctermbg=236
+hi MatchParen cterm=bold,underline ctermfg=196 ctermbg=232
 hi Directory ctermfg=33 guifg=Cyan
 hi DiffAdd ctermfg=64 ctermbg=233
 hi DiffChange ctermfg=136 ctermbg=233
@@ -78,9 +78,13 @@ hi! vimGroup cterm=bold ctermfg=33
 hi! vimEnvvar ctermfg=089
 
 " Golang
-hi! goDirective ctermfg=202
+hi! goDirective ctermfg=165
 hi! goDeclaration ctermfg=165
-hi! goDeclType ctermfg=165
+hi! goDeclType ctermfg=197
+hi! goReceiverType ctermfg=197
+hi! goExtraType ctermfg=197
+hi! goSignedInts ctermfg=197
+hi! goType ctermfg=197 cterm=bold
 hi! goMethod ctermfg=33 cterm=bold
 hi! goBuiltins ctermfg=33 cterm=bold
 hi! goFunction ctermfg=33 cterm=bold
@@ -91,10 +95,8 @@ hi! goStatement ctermfg=202
 hi! goRawString ctermfg=34
 hi! goString ctermfg=34
 hi! goEscapeC ctermfg=196
-hi! goType ctermfg=199 cterm=bold
-hi! goSignedInts ctermfg=199
-hi! goBoolean ctermfg=220
-hi! goOperator ctermfg=45 cterm=bold
+hi! goBoolean ctermfg=202
+hi! goDecimalInt ctermfg=202
+hi! goOperator ctermfg=220 cterm=bold
 hi! goRepeat ctermfg=165
 hi! goComment ctermfg=241
-
