@@ -1,9 +1,9 @@
-hi Normal ctermfg=244 ctermbg=233
+hi Normal ctermfg=250 ctermbg=233
 hi CursorColumn ctermbg=233 ctermfg=207
 hi Cursor ctermfg=233 ctermbg=244
 hi CursorLine cterm=none ctermbg=233 
 hi CursorLineNr ctermfg=198
-hi LineNr ctermfg=236 ctermbg=233
+hi LineNr ctermfg=238 ctermbg=233
 hi StatusLine cterm=none ctermfg=244 ctermbg=234
 hi StatusLineNC cterm=none ctermfg=238 ctermbg=234
 hi VertSplit ctermfg=234 ctermbg=234
@@ -76,4 +76,25 @@ hi! vimHiLink ctermfg=33
 hi! vimHiGroup ctermfg=33
 hi! vimGroup cterm=bold ctermfg=33
 hi! vimEnvvar ctermfg=089
+
+" Golang
+hi! goDirective ctermfg=202
+hi! goDeclaration ctermfg=165
+hi! goDeclType ctermfg=165
+hi! goMethod ctermfg=33 cterm=bold
+hi! goBuiltins ctermfg=33 cterm=bold
+hi! goFunction ctermfg=33 cterm=bold
+hi! goInterface ctermfg=33 cterm=bold
+hi! goStructDef ctermfg=33 cterm=bold
+hi! goConditional ctermfg=165
+hi! goStatement ctermfg=202
+hi! goRawString ctermfg=34
+hi! goString ctermfg=34
+hi! goEscapeC ctermfg=196
+hi! goType ctermfg=199 cterm=bold
+hi! goSignedInts ctermfg=199
+hi! goBoolean ctermfg=220
+hi! goOperator ctermfg=45 cterm=bold
+hi! goRepeat ctermfg=165
+hi! goComment ctermfg=241
 
