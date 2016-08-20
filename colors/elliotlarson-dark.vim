@@ -40,6 +40,8 @@ hi Pmenu cterm=reverse ctermfg=244 ctermbg=233
 hi PmenuSel cterm=reverse ctermfg=236 ctermbg=187
 hi PmenuSbar cterm=reverse ctermfg=187 ctermbg=244
 hi PmenuThumb cterm=reverse ctermfg=244 ctermbg=233
+hi Search cterm=bold ctermbg=233
+"hi hlsearch cterm=bold
 
 " syntax highlighting groups
 hi Comment ctermfg=236
