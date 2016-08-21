@@ -41,7 +41,7 @@ hi PmenuSel cterm=reverse ctermfg=236 ctermbg=187
 hi PmenuSbar cterm=reverse ctermfg=187 ctermbg=244
 hi PmenuThumb cterm=reverse ctermfg=244 ctermbg=233
 hi Search cterm=bold ctermbg=233
-"hi hlsearch cterm=bold
+hi Todo cterm=bold ctermfg=233 ctermbg=5
 
 " syntax highlighting groups
 hi Comment ctermfg=236
@@ -104,3 +104,4 @@ hi! goDecimalInt ctermfg=202
 hi! goOperator ctermfg=220 cterm=bold
 hi! goRepeat ctermfg=165
 hi! goComment ctermfg=241
+hi! goTodo ctermfg=15 ctermbg=4
