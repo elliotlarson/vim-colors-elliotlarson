@@ -44,7 +44,7 @@ hi Search cterm=bold ctermbg=233
 hi Todo cterm=bold ctermfg=233 ctermbg=5
 
 " syntax highlighting groups
-hi Comment ctermfg=236
+hi Comment ctermfg=241
 hi Constant ctermfg=37
 hi Identifier ctermfg=33
 hi Statement ctermfg=64
@@ -105,3 +105,4 @@ hi! goOperator ctermfg=220 cterm=bold
 hi! goRepeat ctermfg=165
 hi! goComment ctermfg=241
 hi! goTodo ctermfg=15 ctermbg=4
+
