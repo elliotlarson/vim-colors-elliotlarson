@@ -42,6 +42,7 @@ hi PmenuSbar cterm=reverse ctermfg=187 ctermbg=244
 hi PmenuThumb cterm=reverse ctermfg=244 ctermbg=233
 hi Search cterm=bold ctermbg=233
 hi Todo cterm=bold ctermfg=233 ctermbg=5
+hi Todo ctermfg=15 ctermbg=4
 
 " syntax highlighting groups
 hi Comment ctermfg=241
@@ -53,7 +54,6 @@ hi Type ctermfg=136
 hi Special ctermfg=124
 hi Underlined ctermfg=61
 hi Error cterm=bold ctermfg=124
-hi Todo cterm=bold ctermfg=125
 
 " vim syntax highlighting 
 hi! link vimVar Identifier
@@ -106,3 +106,33 @@ hi! goRepeat ctermfg=165
 hi! goComment ctermfg=241
 hi! goTodo ctermfg=15 ctermbg=4
 
+" Ruby
+"hi! rubyClass ctermfg=126
+hi! rubyClass ctermfg=129
+hi! rubyInclude ctermfg=129
+hi! rubyDefine ctermfg=129
+hi! rubyConstant ctermfg=33 cterm=bold
+hi! rubyFunction ctermfg=33 cterm=bold
+hi! rubySymbol ctermfg=38
+hi! rubyInstanceVariable ctermfg=126
+hi! rubyString ctermfg=28
+hi! rubyStringDelimiter ctermfg=28 cterm=bold
+hi! rubyStringEscape ctermfg=208 
+hi! rubyRegexpCharClass ctermfg=12
+hi! rubyRegexpQuantifier ctermfg=12
+hi! rubyRegexpAnchor ctermfg=220
+hi! rubyRegexpSpecial ctermfg=220
+hi! rubyRegexpDelimiter ctermfg=124
+hi! rubyControl ctermfg=172
+hi! rubyConditionalModifier ctermfg=124
+hi! rubyRepeat ctermfg=124
+hi! rubyConditional ctermfg=124
+hi! rubyPseudoVariable ctermfg=161
+hi! rubyBoolean ctermfg=161
+hi! rubyInteger ctermfg=161
+hi! rubyFloat ctermfg=161
+hi! rubyAccess ctermfg=220
+hi! rubyAttribute ctermfg=172
+hi! rubyBlockParameter ctermfg=172
+hi! rubyInterpolationDelimiter ctermfg=12
+hi! rubyException ctermfg=196 cterm=bold
