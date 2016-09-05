@@ -107,9 +107,8 @@ hi! goComment ctermfg=241
 hi! goTodo ctermfg=15 ctermbg=4
 
 " Ruby
-"hi! rubyClass ctermfg=126
-hi! rubyClass ctermfg=129
-hi! rubyInclude ctermfg=129
+hi! rubyInclude ctermfg=172
+hi! rubyClass ctermfg=129 
 hi! rubyDefine ctermfg=129
 hi! rubyConstant ctermfg=33 cterm=bold
 hi! rubyFunction ctermfg=33 cterm=bold
@@ -123,10 +122,10 @@ hi! rubyRegexpQuantifier ctermfg=12
 hi! rubyRegexpAnchor ctermfg=220
 hi! rubyRegexpSpecial ctermfg=220
 hi! rubyRegexpDelimiter ctermfg=124
-hi! rubyControl ctermfg=172
-hi! rubyConditionalModifier ctermfg=124
-hi! rubyRepeat ctermfg=124
-hi! rubyConditional ctermfg=124
+hi! rubyControl ctermfg=124
+hi! rubyConditionalModifier ctermfg=172
+hi! rubyRepeat ctermfg=172
+hi! rubyConditional ctermfg=172
 hi! rubyPseudoVariable ctermfg=161
 hi! rubyBoolean ctermfg=161
 hi! rubyInteger ctermfg=161
