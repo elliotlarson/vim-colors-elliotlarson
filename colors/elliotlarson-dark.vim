@@ -108,8 +108,8 @@ hi! goTodo ctermfg=15 ctermbg=4
 
 " Ruby
 hi! rubyInclude ctermfg=172
-hi! rubyClass ctermfg=129 
-hi! rubyDefine ctermfg=129
+hi! rubyClass ctermfg=129 cterm=bold
+hi! rubyDefine ctermfg=129 cterm=bold
 hi! rubyConstant ctermfg=33 cterm=bold
 hi! rubyFunction ctermfg=33 cterm=bold
 hi! rubySymbol ctermfg=38
@@ -122,14 +122,14 @@ hi! rubyRegexpQuantifier ctermfg=12
 hi! rubyRegexpAnchor ctermfg=220
 hi! rubyRegexpSpecial ctermfg=220
 hi! rubyRegexpDelimiter ctermfg=124
-hi! rubyControl ctermfg=124
-hi! rubyConditionalModifier ctermfg=172
-hi! rubyRepeat ctermfg=172
-hi! rubyConditional ctermfg=172
-hi! rubyPseudoVariable ctermfg=161
-hi! rubyBoolean ctermfg=161
-hi! rubyInteger ctermfg=161
-hi! rubyFloat ctermfg=161
+hi! rubyControl ctermfg=124 cterm=bold
+hi! rubyConditionalModifier ctermfg=172 cterm=bold
+hi! rubyRepeat ctermfg=172 cterm=bold
+hi! rubyConditional ctermfg=172 cterm=bold
+hi! rubyPseudoVariable ctermfg=161 cterm=bold
+hi! rubyBoolean ctermfg=161 cterm=bold
+hi! rubyInteger ctermfg=161 cterm=bold
+hi! rubyFloat ctermfg=161 cterm=bold
 hi! rubyAccess ctermfg=220
 hi! rubyAttribute ctermfg=172
 hi! rubyBlockParameter ctermfg=172
